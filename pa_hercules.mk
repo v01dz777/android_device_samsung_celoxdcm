@@ -35,8 +35,7 @@ $(call inherit-product, device/samsung/hercules/full_hercules.mk)
 
 # Extra Packages
 PRODUCT_PACKAGES += \
-    CMFileManager \
-    Torch
+    CMFileManager
 
 # Override AOSP build properties
 PRODUCT_NAME := pa_hercules
