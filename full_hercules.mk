@@ -20,6 +20,10 @@
 # details, it only fundamentally contains two inherit-product
 # lines, full and maguro, hence its name.
 #
+
+# Extra Packages
+PRODUCT_PACKAGES += \
+    CMFileManager
  
 BOARD_HAVE_NFC := true
 
