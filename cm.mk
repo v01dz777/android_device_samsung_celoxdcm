@@ -1,4 +1,4 @@
-$(call inherit-product, device/samsung/hercules/full_hercules.mk)
+$(call inherit-product, device/samsung/celoxdcm/full_celoxdcm.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
@@ -8,10 +8,11 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Override AOSP build properties
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SGH-T989
+PRODUCT_MODEL := SC-03D
 PRODUCT_MANUFACTURER := Samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SGH-T989 TARGET_DEVICE=SGH-T989 BUILD_FINGERPRINT="samsung/SGH-T989/SGH-T989:4.4/KRT16M/T989UVMC6:user/release-keys" PRIVATE_BUILD_DESC="SGH-T989-user 4.4 KRT16M UVMC6 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SC-03D TARGET_DEVICE=SC-03D BUILD_FINGERPRINT="samsung/SC-03D/SC-03D:6.0/LMY47I/OMPP5:user/release-keys" PRIVATE_BUILD_DESC="SC-03D-user 6.0 LMY47I OMMP5 release-keys"
 
-PRODUCT_NAME := cm_hercules
-PRODUCT_DEVICE := hercules
+
+PRODUCT_NAME := cm_celoxdcm
+PRODUCT_DEVICE := celoxdcm
 
